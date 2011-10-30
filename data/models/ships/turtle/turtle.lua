@@ -100,7 +100,7 @@ define_model('turtle', {
 		tags = {'ship'},
 		ship_defs = {
 			{
-				name='Turtle',
+				name='Żółw',
 				forward_thrust = -10e6,
 				reverse_thrust = 10e6,
 				up_thrust = 10e6,

@@ -1199,7 +1199,7 @@ define_model('eagle_mk2', {
 		tags = {'ship'},
 		ship_defs = {
 			{
-				name='Eagle MK-II',
+				name='Orzeł MK-II',
 				forward_thrust = -34e5,
 				reverse_thrust = 17e5,
 				up_thrust = 8e5,
@@ -1332,7 +1332,7 @@ define_model('eagle_mk3', {
 		tags = {'ship'},
 		ship_defs = {
 			{
-				name='Eagle MK-III',
+				name='Orzeł MK-III',
 				forward_thrust = -36e5,
 				reverse_thrust = 25e5,
 				up_thrust = 8e5,
@@ -1475,7 +1475,7 @@ define_model('eagle_mk4', {
 		tags = {'ship'},
 		ship_defs = {
 			{
-				name='Eagle MK-IV "Bomber"',
+				name='Orzeł MK-IV "Bombowiec"',
 				forward_thrust = -50e5,
 				reverse_thrust = 25e5,
 				up_thrust = 14e5,

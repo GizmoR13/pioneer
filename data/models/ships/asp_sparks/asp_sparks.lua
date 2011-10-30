@@ -303,7 +303,7 @@ define_model('asp_sparks', {
 		tags = {'ship'},
 		ship_defs = {
 			{
-				name='Asp Explorer',
+				name='Odkrywca Żmija',
 				forward_thrust = -220e5,
 				reverse_thrust = 100e5,
 				up_thrust = 60e5,

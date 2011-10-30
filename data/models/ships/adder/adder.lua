@@ -504,7 +504,7 @@ define_model('adder', {
 		tags = {'ship'},
 		ship_defs = {
 			{
-				name='Adder',
+				name='Żmija',
 				forward_thrust = -100e5,
 				reverse_thrust = 51e5,
 				up_thrust = 3e6,

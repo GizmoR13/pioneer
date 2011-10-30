@@ -117,7 +117,7 @@ define_model('ip_shuttle', {
 		tags = {'ship'},
 		ship_defs = {
 			{
-				name='Interplanetary Shuttle',
+				name='Prom Międzyplanetarny',
 				forward_thrust = -15e5,
 				reverse_thrust = 8e5,
 				up_thrust = 8e5,

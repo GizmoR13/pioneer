@@ -40,7 +40,7 @@ define_model('stardust', {
 		tags = {'ship'},
 		ship_defs = {
 			{
-				name='Stardust',
+				name='Gwiezdny Pył',
 				forward_thrust = -200e5,
 				reverse_thrust = 80e5,
 				up_thrust = 40e5,

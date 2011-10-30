@@ -7,7 +7,7 @@ define_model('lrc', {
 		tags = {'static_ship'},
 		ship_defs = {
 			{
-				name='Long Range Cruiser',
+				name='Krążownik Dużego Zasięgu',
 				forward_thrust = -2e8,
 				reverse_thrust = 5e7,
 				up_thrust = 5e7,

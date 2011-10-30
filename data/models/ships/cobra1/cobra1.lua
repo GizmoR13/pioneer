@@ -7,7 +7,7 @@ define_model('cobra1', {
 		tags = {'ship'},
 		ship_defs = {
 			{
-				name='Cobra Mk I',
+				name='Kobra Mk I',
 				forward_thrust = -12e6,
 				reverse_thrust = 5e6,
 				up_thrust = 4e6,

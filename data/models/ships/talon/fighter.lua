@@ -120,7 +120,7 @@ define_model('fi', {
 		tags = { 'ship' },
 		ship_defs = {
 			{
-				name='Talon Military Interceptor',
+				name='Myśliwiec Przechwytujący Szpon',
 				forward_thrust = -20e5,
 				reverse_thrust = 5e5,
 				up_thrust = 4e5,
@@ -367,7 +367,7 @@ define_model('fi', {
 			--zbias(0)
 			use_material('rand2')
 			--zbias(1, v(5, -1.527, -18.867), v(0,.2,-1))
-			text('Talon:', v(.8,0.645,2.8), v(0,1,0), v(0,0,-1), .5, {center=true})
+			text('Szpon:', v(.8,0.645,2.8), v(0,1,0), v(0,0,-1), .5, {center=true})
 			use_material('text2')
 			text(reg, v(.8,0.615,1.0), v(0,1,0), v(0,0,-1), .5, {center=true})
 			--zbias(0)

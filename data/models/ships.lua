@@ -170,7 +170,7 @@ define_model('ladybird', {
 		tags = {'ship'},
 		ship_defs = {
 			{
-				name='Ladybird Starfighter',
+				name='Myśliwiec Biedronka',
 				forward_thrust = -10e6,
 				reverse_thrust = 4e6,
 				up_thrust = 3e6,
@@ -354,7 +354,7 @@ define_model('walrus', {
 		tags = { 'ship' },
 		ship_defs = {
 			{
-				name='Walrus',
+				name='Mors',
 				forward_thrust = -40e6,
 				reverse_thrust = 12e6,
 				up_thrust = 12e6,
@@ -516,7 +516,7 @@ define_model('flowerfairy', {
 		tags = {'ship'},
 		ship_defs = {
 			{
-				name='Flowerfairy Heavy Trader',
+				name='Ciężki Statek Handlowy Flowerfairy',
 				forward_thrust = -60e6,
 				reverse_thrust = 20e6,
 				up_thrust = 20e6,
@@ -662,7 +662,7 @@ define_model('interdictor', {
 		tags = {'ship'},
 		ship_defs = {
 			{
-				name='Sirius Interdictor',
+				name='Krążownik Przechwytujący Syriusz',
 				forward_thrust = -24e6,
 				reverse_thrust = 12e6,
 				up_thrust = 6e6,

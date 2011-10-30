@@ -652,7 +652,7 @@ define_model('rattlesnake', {
 		tags = {'ship'},
 		ship_defs = {
 			{
-				name='Sidewinder',
+				name='Grzechotnik',
 				forward_thrust = -4e6,
 				reverse_thrust = 3e6,
 				up_thrust = 2e6,

@@ -1033,7 +1033,7 @@ define_model('courier', {
 		tags = {'ship'},
 		ship_defs = {
 			{
-				name='Imperial Courier',
+				name='Kurier Imperium',
 				forward_thrust = -50e6,
 				reverse_thrust = 15e6,
 				up_thrust = 15e6,
@@ -1134,7 +1134,7 @@ define_model('trader', {
 		tags = {'ship'},
 		ship_defs = {
 			{
-				name='Imperial Trader',
+				name='Kupiec Imperium',
 				forward_thrust = -8e7,
 				reverse_thrust = 3e7,
 				up_thrust = 3e7,

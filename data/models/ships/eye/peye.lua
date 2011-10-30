@@ -117,7 +117,7 @@ define_model('peye', {
 		tags = {'ship'},
 		ship_defs = {
 			{
-				name='E.Y.E',
+				name='O.K.O',
 				forward_thrust = -20e6,
 				reverse_thrust = 10e6,
 				up_thrust = 5e6,

@@ -127,7 +127,7 @@ define_model('wave', {
 		tags = {'ship'},
 		ship_defs = {
 			{
-				name='Wave Heavy Hypersonic Fighter',
+				name='Fala Ciężki Myśliwiec Nadprzestrzenny',
 				forward_thrust = -6e6,
 				reverse_thrust = 2e6,
 				up_thrust = 1e6,
