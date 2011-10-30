@@ -1,7 +1,7 @@
 local s = CustomSystem:new('Black Hole', { 'STAR_SM_BH' })
 	:govtype('CISLIBDEM')
-	:short_desc('The End of the line.')
-	:long_desc([[This is what holds it all together baby, Yeah!]])
+	:short_desc('Koniec trasy.')
+	:long_desc([[To jest to co trzyma wszystko razem dziecino, Yeah!]])
 
 
 local agamemnon = CustomSBody:new('Agamemnon', 'STAR_SM_BH')

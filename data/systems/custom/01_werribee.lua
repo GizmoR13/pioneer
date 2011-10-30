@@ -1,11 +1,9 @@
 local s = CustomSystem:new("Werribee",{'STAR_G'})
 	:govtype('EARTHMILDICT')
-	:short_desc('Protected Nature Reserve')
-	:long_desc([[Founded as a reserve for species indiginous to Australia on Earth,
-Werribee enjoys protection from the Earth military against poachers.
-
-Since 3140, this system has been the only place where some of the most
-beautiful and dangerous life forms from Earth live outside of captivity.]])
+	:short_desc('Chroniony rezerwat przyrody')
+	:long_desc([[Założono tu rezerwat rdzennych australijskich gatunków zwierząt, od roku 3140, system ten jest jedynym miejscem poza Ziemią, w którym żyją jedne z najpiękniejszych i najgroźniejszych gatunków zwierząt.
+	
+	Werribee chroniona jest przez Ziemską Flotę.]])
 
 local werribee = CustomSBody:new("Werribee",'STAR_G')
    :radius(f(11,10))
