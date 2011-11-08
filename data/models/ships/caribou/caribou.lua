@@ -105,7 +105,7 @@ define_model('caribou', {
 		tags = { 'ship' },
 		ship_defs = {
 			{
-				name='Caribou',
+				name='Karibu',
 				forward_thrust = -10e7,
 				reverse_thrust = 3e7,
 				up_thrust = 3e7,
