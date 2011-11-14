@@ -135,11 +135,11 @@ define_model('vipx_uc_f', {
 	dynamic = function(lod)
 		local divs = 3*lod
 		local trans = 6.6*(math.clamp(get_animation_position('WHEEL_STATE'),.4,1)-.4)   -- 3*1.43*
-		--local rot_x = 9.55*(math.pi/180)*(math.clamp(get_animation_position('WHEEL_STATE'),.5,1)-.5) -- for rotation when call a function instead of a model, math.pi/360 = 1°!
+		--local rot_x = 9.55*(math.pi/180)*(math.clamp(get_animation_position('WHEEL_STATE'),.5,1)-.5) -- for rotation when call a function instead of a model, math.pi/360 = 1Â°!
 		--local rot_z = 9.55*(math.pi/180)*(math.clamp(get_animation_position('WHEEL_STATE'),.5,1)-.5) -- (math.clamp(get_animation_position('WHEEL_STATE'),.5,1)-.5) subtracts .5 from clamp value to start at 0
 		-- start time = .5, duration = .5, initial value = 0!
 
-		local rot = 2*(1/45*9.55)*(math.clamp(get_animation_position('WHEEL_STATE'),.5,1)-.5)          -- 1:1 = 45°. 1/45 = 1°
+		local rot = 2*(1/45*9.55)*(math.clamp(get_animation_position('WHEEL_STATE'),.5,1)-.5)          -- 1:1 = 45Â°. 1/45 = 1Â°
 
 		call_model('vipx_pad',v(0,.2-trans,0),v(0,-1,0),v(0,rot,1),1)
 
@@ -398,7 +398,7 @@ define_model('viper_x', {
 		tags = {'ship'},
 		ship_defs = {
 			{
-				name='Viper X',
+				name='Å»mija X',
 				forward_thrust = -9e6,
 				reverse_thrust = 3e6,
 				up_thrust = 3e6,

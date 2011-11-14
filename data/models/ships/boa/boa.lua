@@ -110,7 +110,7 @@ define_model('boa', {
 		tags = { 'ship' },
 		ship_defs = {
 			{
-				name='Boa Freighter',
+				name='Frachtowiec Boa',
 				forward_thrust = -12e7,
 				reverse_thrust = 4e7,
 				up_thrust = 4e7,

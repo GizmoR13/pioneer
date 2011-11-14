@@ -795,7 +795,7 @@ define_model('conny', {
 		tags = {'ship'},
 		ship_defs = {
 			{
-				name = 'Constrictor',
+				name = 'Konstruktor',
 				forward_thrust = -259e5,
 				reverse_thrust = 118e5,
 				up_thrust = 6e6,

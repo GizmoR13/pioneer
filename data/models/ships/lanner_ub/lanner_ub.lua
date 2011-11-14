@@ -463,7 +463,7 @@ define_model('lanner_ub', {
 		tags = {'ship'},
 		ship_defs = {
 			{
-				name='Lanner',
+				name='Sokół',
 				forward_thrust = -30e6,
 				reverse_thrust = 10e6,
 				up_thrust = 10e6,

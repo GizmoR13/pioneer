@@ -571,7 +571,7 @@ define_model('viperpol', {
 		tags = { 'ship' },
 		ship_defs = {
 			{
-				name='Viper Police Craft',
+				name='Statek Policyjny Żmija',
 				forward_thrust = -10e6,
 				reverse_thrust = 4e6,
 				up_thrust = 4e6,
@@ -682,7 +682,7 @@ define_model('viper', {
 		tags = { 'ship' },
 		ship_defs = {
 			{
-				name='Viper Defence Craft',
+				name='Statek Obronny Żmija',
 				forward_thrust = -10e6,
 				reverse_thrust = 4e6,
 				up_thrust = 4e6,

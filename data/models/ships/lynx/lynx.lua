@@ -30,7 +30,7 @@ define_model('lynx', {
 		tags = {'static_ship'},
 		ship_defs = {
 			{
-				name='Lynx Bulk Carrier',
+				name='Masowiec Ryś',
 				forward_thrust = -3e7,
 				reverse_thrust = 2e7,
 				up_thrust = 2e7,

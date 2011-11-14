@@ -301,7 +301,7 @@ define_model('hh', {
 		tags = { 'ship' },
 		ship_defs = {
 			{
-				name='Hammerhead Heavy Freighter',
+				name='Ciężka Fregata Młot',
 				forward_thrust = -14e7,
 				reverse_thrust = 5e7,
 				up_thrust = 5e7,
