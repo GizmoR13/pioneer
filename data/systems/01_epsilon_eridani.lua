@@ -1,13 +1,13 @@
 local s = CustomSystem:new('Epsilon Eridani', { 'STAR_K' })
 	:govtype('CISLIBDEM')
-	:short_desc('First off-earth colony. Industrial world with indigenous life.')
-	:long_desc([[Epsilon Eridani was the first star system beyond Sol to be colonised by humanity. The New Hope colony on the life-bearing planet of the same name was founded in 2279. Its 1520 initial inhabitants completed their pre-hyperspace voyage of 10.7 lightyears from Sol in just under 25 years.
-Mass emigration from Earth in the 27th century drove a population explosion and today Epsilon Eridani counts itself among the most populous of inhabited systems.
-The system's history has been marked by political friction between Epsilon Eridani and the Earth government. This began with the advent of hyperspace around the end of the 26th century. While previously the communications lag of 20 years had prevented exertion of Earth's power, suddenly the rulers of Epsilon Eridani found themselves constantly subject to the interference of Earth.
-This conflict flared up in 2714 when the pro-Earth president of Epsilon Eridani was toppled amid strikes and civil disorder over the unfair tax and trade conditions imposed by Earth. The 'Free Republic' then established survived nine months until Earth rule was re-imposed by force, including the notorious use of orbital lasers on population centres.
-Independence was not finally won until the wars of the 30th century, and the formation of the Confederation of Independent Worlds, of which Epsilon Eridani was a founding member.
-Epsilon Eridani is today a thriving centre of industry, cutting-edge technology and tourism.
-Reproduced with the kind permission of Enrique Watson, New Hope University, 2992]])
+	:short_desc('Pierwsza pozaziemska kolonia. Przemysłowy świat z lokalnymi formami życia.')
+	:long_desc([[Epsilon Eridani był pierwszym systemem (nie licząc Układu Słonecznego) skolonizowanym przez ludzi. W roku 2279 założono kolonie na New Hope, planecie zdolnej do podtrzymania życia. Habitaty z 1520 kolonistami zakończyły swą przed-nadprzestrzenną podroż 10.7 lat świetlnych od Słońca, w zaledwie 25 lat.
+Masowa emigracja z Ziemi w 27 wieku, doprowadziła do eksplozji demograficznej i Epsilon Eridani jest dziś jednym z najbardziej zaludnionych systemów.
+Historia systemu została naznaczona przez polityczne starcia miedzy Epsilon Eridani i rządem na Ziemi, zapoczątkowane przez odkrycie napędu nadprzestrzennego pod koniec 26 wieku. W przeszłości 20 letnie opóźnienie komunikacyjne zapobiegało wywieraniu presji przez Ziemskie władze, lecz po odkryciu napędu nadprzestrzennego Ziemia szybko przejęła kontrolę nad rządem Epsilon Eridani.
+W 2714 roku wybuchł konflikt, gdy pro-Ziemski prezydent Epsilon Eridani został obalony pośród strajków i niepokojów społecznych, spowodowanych niesprawiedliwymi podatkami i umowami handlowymi narzuconymi przez Ziemię. 'Wolna Republika' istniała dziewięć miesięcy, nim Ziemia odzyskała nad nią kontrole silą, przy zmasowanym ostrzale laserowym z orbity skupisk ludności na powierzchni.
+Ostatecznie niepodległość została osiągnięta dopiero po wojnach w 30 wieku i utworzeniu Konfederacji Niepodległych Światów, której założycielem była Epsilon Eridani.
+Dziś Epsilon Eridani jest potężnym ośrodkiem przemysłowym, centrum nowych technologii i turystyki.
+Skopiowane za zgodą Enrique Watson, Uniwersytet New Hope, 2992]])
 
 
 local epserid = CustomSBody:new('Epsilon Eridani', 'STAR_K')
