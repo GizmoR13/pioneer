@@ -18,7 +18,7 @@ BUY
 SELL
     Sprzedaj
 STOCK
-    Magazyn
+    Zasoby
 CARGO
     Ładownia
 VID_LINK_DOWN
@@ -62,9 +62,9 @@ PRICE_TO_REMOVE
 WT
     Waga
 FIT
-    Zm.
+    [+]
 REMOVE
-    Usuń
+    [-]
 BUY_THIS_SHIP
     Kup statek
 SHIP_TYPE
@@ -78,7 +78,7 @@ NUMBER_TONNES
 WEIGHT_FULLY_LADEN
     Masa całkowita
 CAPACITY
-    Ładowność
+    Udźwig
 FORWARD_ACCEL_EMPTY
     Ciąg główny (pusty)
 NUMBER_G
@@ -609,7 +609,7 @@ ELITE
 SIMULATING_UNIVERSE_EVOLUTION_N_BYEARS
     Symulacja ewolucji wszechświata: %age{f.1} miliardów lat ;-)
 TOMBSTONE_EPITAPH
-    ŚWIĘTEJ PAMIĘCI
+    SPOCZYWAJ W POKOJU
 MM_START_NEW_GAME_EARTH
     Nowa gra: rozpocznij na Ziemi
 MM_START_NEW_GAME_E_ERIDANI
@@ -1089,9 +1089,9 @@ HULL_TEMP
 WEAPON_TEMP
     Temp. broni
 HULL_INTEGRITY
-    Integr. kadłuba
+    Stan kadłuba
 SHIELD_INTEGRITY
-    Integr. osłon
+    Stan osłon
 FUEL
     Paliwo
 LAUNCH_PERMISSION_DENIED_BUSY
