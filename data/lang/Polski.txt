@@ -221,7 +221,7 @@ FULL_SCREEN
 OTHER_GRAPHICS_SETTINGS
     Inne ustawienia graficzne
 USE_SHADERS
-    Użyj cieniowania
+    Użyj cieniowania (wymagany restart)
 SOUND_SETTINGS
     Ustawienia dźwięku
 VOL_MASTER
