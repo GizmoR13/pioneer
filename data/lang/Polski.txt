@@ -58,7 +58,7 @@ SOMEWHERE_SHIP_REPAIRS
 PRICE_TO_FIT
     $ za montaż
 PRICE_TO_REMOVE
-    $ za usuniecie
+    $ za usunięcie
 WT
     Waga
 FIT
@@ -173,7 +173,7 @@ LOAD
 CANCEL
     Wróć
 SELECT_FILENAME_TO_SAVE
-    Wybierz plik do zapisu lub podaj nowa nazwę pliku
+    Wybierz plik do zapisu lub podaj nową nazwę pliku
 CANT_SAVE_IN_HYPERSPACE
 	Nie można zapisać gry w czasie skoku
 GAME_SAVED_TO
@@ -359,7 +359,7 @@ SHIELD_GENERATOR
 X_SHIELD_GENERATORS
     Genaratory Osłon [#0f0 %quantity #fff]
 SHIELD_GENERATOR_DESCRIPTION
-    Zapewnia dodatkowa osłonę kadłuba wraz z dodawaniem kolejnych jednostek.
+    Zapewnia dodatkową osłonę kadłuba wraz z dodawaniem kolejnych jednostek.
 LASER_COOLING_BOOSTER
     Wspomaganie Chłodzenia Lasera
 LASER_COOLING_BOOSTER_DESCRIPTION
@@ -633,7 +633,7 @@ ALERT_CANCELLED
 SHIP_DETECTED_NEARBY
     Wykryto statek w pobliżu.
 DOWNGRADING_ALERT_STATUS
-    Brak zagrożenia przez 60 sekund, odwołuje alarm.
+    Brak zagrożenia przez 60 sekund, odwołuję alarm.
 LASER_FIRE_DETECTED
     Statek pod ostrzałem!
 SOMEWHERE_POLICE
@@ -743,7 +743,7 @@ YOU_DO_NOT_HAVE_ANY_X
 FRONT_VIEW
     Widok z przodu
 REAR_VIEW
-    Widok z tylu
+    Widok z tyłu
 EXTERNAL_VIEW
     Widok zewnętrzny
 SIDEREAL_VIEW
@@ -889,7 +889,7 @@ WITH_NO_SIGNIFICANT_ATMOSPHERE
 TENUOUS
     śladową
 THIN
-    rozrzedzona
+    rozrzedzoną
 THICK
     gęstą
 VERY_DENSE
@@ -911,7 +911,7 @@ HE_ATMOSPHERE
 AR_ATMOSPHERE
      " atmosfera oparta na argonie"
 S_ATMOSPHERE
-     " atmosfera przepełnioną siarka"
+     " atmosfera przepełniona siarką"
 N_ATMOSPHERE
      " atmosfera oparta na azocie"
 AND_HIGHLY_COMPLEX_ECOSYSTEM
@@ -1081,7 +1081,7 @@ SHIP_VELOCITY_BY_REFERENCE_OBJECT
 DISTANCE_FROM_SHIP_TO_NAV_TARGET
     Odległość statku od celu
 SHIP_ALTITUDE_ABOVE_TERRAIN
-    Wysokość statku nad powierzchnia
+    Wysokość statku nad powierzchnią
 EXTERNAL_ATMOSPHERIC_PRESSURE
     Zewnętrzne ciśnienie atmosferyczne
 HULL_TEMP
