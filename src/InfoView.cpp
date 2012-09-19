@@ -281,6 +281,7 @@ public:
 		col2 += stringf(Lang::N_LIGHT_YEARS_N_MAX,
 			formatarg("distance", stats.hyperspace_range),
 			formatarg("maxdistance", stats.hyperspace_range_max));
+		col2 += "\n\n";
 
 		for (int i=Equip::FIRST_SHIPEQUIP; i<=Equip::LAST_SHIPEQUIP; i++) {
 			Equip::Type t = Equip::Type(i) ;
