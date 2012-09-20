@@ -281,42 +281,74 @@ public:
 		col2 += stringf(Lang::N_LIGHT_YEARS_N_MAX,
 			formatarg("distance", stats.hyperspace_range),
 			formatarg("maxdistance", stats.hyperspace_range_max));
-		col2 += "\n\n";// dodane aby zrownac kolumny przed wprowadzeniem listy
-		// tu zaczyna sie petla co wyrzuca na koncu liste sprzetu (razem z poprzednimi stringami)
-		// w petli jest 6 x col1
-		// gdyby zmodyfikowac tak aby naprzemiennie wyrzucalo raz do col1 raz do col2 to by rozlozylo liste na 2 kolumny
-		// jeden przebieg petli to 1 item dodany do tekstu w kolumnie col1
-		// jak doda jeden to rozpoczyna petle od poczatku, mniemam
+		col2 += "\n\n";
 
-		// czyli zrobic nieparzyste przebiegi CALEJ petli wszystkie jako col1 a parzyste to wszystkie jako col2
-		// 1 przebieg>col1; 2 przebieg>col2; 3 przebieg>col1 itd.
-		for (int i=Equip::FIRST_SHIPEQUIP; i<=Equip::LAST_SHIPEQUIP; i++) {
-			Equip::Type t = Equip::Type(i) ;
+		int c;
+		c=1;
+		for (int i=Equip::FIRST_SHIPEQUIP; i<=Equip::LAST_SHIPEQUIP; i++)
+		{
+			Equip::Type t = Equip::Type(i);
 			Equip::Slot s = Equip::types[t].slot;
 			if ((s == Equip::SLOT_MISSILE) || (s == Equip::SLOT_ENGINE) || (s == Equip::SLOT_LASER)) continue;
-			int num = Pi::player->m_equipment.Count(s, t);
-			if (num == 1) {
-				col1 += stringf("%0\n", Equip::types[t].name); //col1 <> col2
-			} else if (num > 1) {
+			// odd to column1
+			if ((c == 1) || (c == 3) || (c == 5) || (c == 7) || (c == 9) || (c == 11) || (c == 13) || (c == 15) || (c == 17))
+			{
+				int num = Pi::player->m_equipment.Count(s, t);
+				if (num == 1)
+				{
+				col1 += stringf("%0\n", Equip::types[t].name); c++;
+				}
+				else if (num > 1)
+				{
 				// XXX this needs something more generic
-				switch (t) {
+				switch (t)
+					{
 					case Equip::SHIELD_GENERATOR:
-						col1 += stringf(Lang::X_SHIELD_GENERATORS, formatarg ("quantity", int(num))); //col1 <> col2
+						col1 += stringf(Lang::X_SHIELD_GENERATORS, formatarg ("quantity", int(num)));
 						break;
 					case Equip::PASSENGER_CABIN:
-						col1 += stringf(Lang::X_PASSENGER_CABINS, formatarg ("quantity", int(num))); //col1 <> col2
+						col1 += stringf(Lang::X_PASSENGER_CABINS, formatarg ("quantity", int(num)));
 						break;
 					case Equip::UNOCCUPIED_CABIN:
-						col1 += stringf(Lang::X_UNOCCUPIED_CABINS, formatarg ("quantity", int(num))); //col1 <> col2
+						col1 += stringf(Lang::X_UNOCCUPIED_CABINS, formatarg ("quantity", int(num)));
 						break;
 					default:
-						col1 += stringf("%0\n", Equip::types[t].name); //col1 <> col2
+						col1 += stringf("%0\n", Equip::types[t].name); c++;
 						break;
+					}
+				col1 += stringf("\n"); c++;
 				}
-				col1 += stringf("\n"); //col1 <> col2
+			}
+			// even to column2
+			else if ((c == 2) || (c == 4) || (c == 6) || (c == 8) || (c == 10) || (c == 12) || (c == 14) || (c == 16) || (c == 18))
+			{
+				int num = Pi::player->m_equipment.Count(s, t);
+				if (num == 1)
+				{
+				col2 += stringf("%0\n", Equip::types[t].name); c++;
+				}
+				else if (num > 1)
+				{
+				// XXX this needs something more generic
+				switch (t)
+					{
+					case Equip::SHIELD_GENERATOR:
+						col2 += stringf(Lang::X_SHIELD_GENERATORS, formatarg ("quantity", int(num)));
+						break;
+					case Equip::PASSENGER_CABIN:
+						col2 += stringf(Lang::X_PASSENGER_CABINS, formatarg ("quantity", int(num)));
+						break;
+					case Equip::UNOCCUPIED_CABIN:
+						col2 += stringf(Lang::X_UNOCCUPIED_CABINS, formatarg ("quantity", int(num)));
+						break;
+					default:
+						col2 += stringf("%0\n", Equip::types[t].name); c++;
+						break;
+					}
+				col2 += stringf("\n"); c++;
+				}
 			}
 		}
-		// chyba koniec tej petli
 		info1->SetText(col1);
 		info2->SetText(col2);
 		this->ResizeRequest();
