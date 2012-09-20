@@ -283,20 +283,20 @@ public:
 			formatarg("maxdistance", stats.hyperspace_range_max));
 		col2 += "\n\n";
 
-		int c;
-		c=1;
+		int oddCheck=1; // for odd and even check
 		for (int i=Equip::FIRST_SHIPEQUIP; i<=Equip::LAST_SHIPEQUIP; i++)
 		{
 			Equip::Type t = Equip::Type(i);
 			Equip::Slot s = Equip::types[t].slot;
 			if ((s == Equip::SLOT_MISSILE) || (s == Equip::SLOT_ENGINE) || (s == Equip::SLOT_LASER)) continue;
-			// odd to column1
-			if ((c == 1) || (c == 3) || (c == 5) || (c == 7) || (c == 9) || (c == 11) || (c == 13) || (c == 15) || (c == 17))
+			// if ODD, to column1
+			if (oddCheck & 1)
 			{
 				int num = Pi::player->m_equipment.Count(s, t);
 				if (num == 1)
 				{
-				col1 += stringf("%0\n", Equip::types[t].name); c++;
+				col1 += stringf("%0\n", Equip::types[t].name);
+				oddCheck++; // if odd was written down
 				}
 				else if (num > 1)
 				{
@@ -313,19 +313,21 @@ public:
 						col1 += stringf(Lang::X_UNOCCUPIED_CABINS, formatarg ("quantity", int(num)));
 						break;
 					default:
-						col1 += stringf("%0\n", Equip::types[t].name); c++;
-						break;
+						col1 += stringf("%0\n", Equip::types[t].name);
+						oddCheck++; // if odd was written down
 					}
-				col1 += stringf("\n"); c++;
+				col1 += stringf("\n");
+				oddCheck++; // if odd was written down
 				}
 			}
-			// even to column2
-			else if ((c == 2) || (c == 4) || (c == 6) || (c == 8) || (c == 10) || (c == 12) || (c == 14) || (c == 16) || (c == 18))
+			// if EVEN, to column2
+			else
 			{
 				int num = Pi::player->m_equipment.Count(s, t);
 				if (num == 1)
 				{
-				col2 += stringf("%0\n", Equip::types[t].name); c++;
+				col2 += stringf("%0\n", Equip::types[t].name);
+				oddCheck++; // if even was written down
 				}
 				else if (num > 1)
 				{
@@ -342,10 +344,12 @@ public:
 						col2 += stringf(Lang::X_UNOCCUPIED_CABINS, formatarg ("quantity", int(num)));
 						break;
 					default:
-						col2 += stringf("%0\n", Equip::types[t].name); c++;
+						col2 += stringf("%0\n", Equip::types[t].name);
+						oddCheck++; // if even was written down
 						break;
 					}
-				col2 += stringf("\n"); c++;
+				col2 += stringf("\n");
+				oddCheck++; // if even was written down
 				}
 			}
 		}
