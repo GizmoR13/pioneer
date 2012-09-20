@@ -281,17 +281,28 @@ public:
 		col2 += stringf(Lang::N_LIGHT_YEARS_N_MAX,
 			formatarg("distance", stats.hyperspace_range),
 			formatarg("maxdistance", stats.hyperspace_range_max));
+		col2 += "\n\n";
 
-		for (int i=Equip::FIRST_SHIPEQUIP; i<=Equip::LAST_SHIPEQUIP; i++) {
-			Equip::Type t = Equip::Type(i) ;
+		int oddCheck=1; // for odd and even check
+		for (int i=Equip::FIRST_SHIPEQUIP; i<=Equip::LAST_SHIPEQUIP; i++)
+		{
+			Equip::Type t = Equip::Type(i);
 			Equip::Slot s = Equip::types[t].slot;
 			if ((s == Equip::SLOT_MISSILE) || (s == Equip::SLOT_ENGINE) || (s == Equip::SLOT_LASER)) continue;
-			int num = Pi::player->m_equipment.Count(s, t);
-			if (num == 1) {
+			// if ODD, to column1
+			if (oddCheck & 1)
+			{
+				int num = Pi::player->m_equipment.Count(s, t);
+				if (num == 1)
+				{
 				col1 += stringf("%0\n", Equip::types[t].name);
-			} else if (num > 1) {
+				oddCheck++; // if odd was written down
+				}
+				else if (num > 1)
+				{
 				// XXX this needs something more generic
-				switch (t) {
+				switch (t)
+					{
 					case Equip::SHIELD_GENERATOR:
 						col1 += stringf(Lang::X_SHIELD_GENERATORS, formatarg ("quantity", int(num)));
 						break;
@@ -303,12 +314,45 @@ public:
 						break;
 					default:
 						col1 += stringf("%0\n", Equip::types[t].name);
-						break;
-				}
+						oddCheck++; // if odd was written down
+					}
 				col1 += stringf("\n");
+				oddCheck++; // if odd was written down
+				}
+			}
+			// if EVEN, to column2
+			else
+			{
+				int num = Pi::player->m_equipment.Count(s, t);
+				if (num == 1)
+				{
+				col2 += stringf("%0\n", Equip::types[t].name);
+				oddCheck++; // if even was written down
+				}
+				else if (num > 1)
+				{
+				// XXX this needs something more generic
+				switch (t)
+					{
+					case Equip::SHIELD_GENERATOR:
+						col2 += stringf(Lang::X_SHIELD_GENERATORS, formatarg ("quantity", int(num)));
+						break;
+					case Equip::PASSENGER_CABIN:
+						col2 += stringf(Lang::X_PASSENGER_CABINS, formatarg ("quantity", int(num)));
+						break;
+					case Equip::UNOCCUPIED_CABIN:
+						col2 += stringf(Lang::X_UNOCCUPIED_CABINS, formatarg ("quantity", int(num)));
+						break;
+					default:
+						col2 += stringf("%0\n", Equip::types[t].name);
+						oddCheck++; // if even was written down
+						break;
+					}
+				col2 += stringf("\n");
+				oddCheck++; // if even was written down
+				}
 			}
 		}
-
 		info1->SetText(col1);
 		info2->SetText(col2);
 		this->ResizeRequest();
