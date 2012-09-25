@@ -118,7 +118,7 @@ Translate:Add({ English = {
 
 Translate:AddFlavour('Polski','Scout', {
 		adtext = "Poszukuję Pilota dla rekonesansu w systemie {system}",
-		introtext = "Witam, nazywam się {name}. Odbieramy jakieś sygnały niedaleko {systembody} w systemie {system} ({sectorx}, {sectory}, {sectorz}). Upoważniono mnie do wypłacenia {cash} za rozmieszczenie sensorów w tym obszarze.",
+		introtext = "Witam, nazywam się {name}. Odbieramy jakieś sygnały niedaleko {systembody} w systemie {system} ({sectorx}, {sectory}, {sectorz}). Upoważniono mnie do wypłacenia {cash} za skanowanie sensorem w tym obszarze.",
 		whysomuchtext = "To standardowa zapłata za taką usługę.",
 		successmsg = "Dziękuję ci za transmisję informacji. Uzgodniona kwota będzie przelana na twoje konto",
 		failuremsg = "Z twojej winy zrywamy kontrakt, musieliśmy wysłać kolejny statek. Odnotujemy twoją niekompetencję!",
@@ -129,7 +129,7 @@ Translate:AddFlavour('Polski','Scout', {
 
 Translate:AddFlavour('Polski','Scout', {
 		adtext = "Potrzebny zwiadowca do systemu {system}.",
-		introtext = "Witam. Jestem {name}. Zapłacę ci {cash} za rozmieszczenie sensorów niedaleko {systembody} w systemie {system} ({sectorx}, {sectory}, {sectorz}).",
+		introtext = "Witam. Jestem {name}. Zapłacę ci {cash} za skanowanie sensorem niedaleko {systembody} w systemie {system} ({sectorx}, {sectory}, {sectorz}).",
 		whysomuchtext = "Jeśli chcesz to mogę zaoferować ci mniej...?",
 		successmsg = "Odebraliśmy twoje dane, za chwilę otrzymasz pieniądze.",
 		failuremsg = "Równie dobrze można było wysłać tam ślimaka. Nie zapłacę za przestarzałe informacje!",
@@ -151,7 +151,7 @@ Translate:AddFlavour('Polski','Scout', {
 
 Translate:AddFlavour('Polski','Scout', {
 		adtext = "REKONESANS. W systemie {system} . {cash} dla doświadczonego pilota.",
-		introtext = "Witam. Jestem {name}, dla mnie informacja to pieniądz. Mogę zapłacić {cash} za rozmieszczenie sensorów nad {systembody} w systemie {system} ({sectorx}, {sectory}, {sectorz}).",
+		introtext = "Witam. Jestem {name}, dla mnie informacja to pieniądz. Mogę zapłacić {cash} za skanowanie sensorem nad {systembody} w systemie {system} ({sectorx}, {sectory}, {sectorz}).",
 		whysomuchtext = "Wiem że coś tam się dzieje, ale nie wiem dokładnie co. W mojej profesji, to niedopuszczalne.",
 		successmsg = "Twoja punktualna i dyskretna usługa zostanie doceniona. Wypłacam całą należność.",
 		failuremsg = "Nieprzydatne! Więcej liczyć na ciebie nie będę! Nie ma co więcej mówić, nie zapłacę ci za to.",
@@ -173,7 +173,7 @@ Translate:AddFlavour('Polski','Scout', {
 
 Translate:AddFlavour('Polski','Scout', {
 		adtext = "Biura administracji w {system} potrzebują twojej pomocy przy aktualizacji dokumentacji!",
-		introtext = "Miło cię widzieć, jestem sekretarz {name}, administracji {system} i chcę zapłacić {cash} za aktualne dane o {systembody}. Bez pośpiechu, po prostu musimy posiadać aktualną dokumentację.",
+		introtext = "Miło cię widzieć, jestem {name}, sekretarz w administracji {system}. Chcę zapłacić {cash} za aktualne dane o {systembody}. Bez pośpiechu, po prostu musimy posiadać aktualną dokumentację.",
 		whysomuchtext = "To jest praca rządowa. To nie są NASZE pieniądze.",
 		successmsg = "Dziękuję ci za pomoc w uzyskaniu aktualnych informacji. Twoja należność została przelana zgodnie z obietnicą.",
 		failuremsg = "Mam uaktualniać nasze przedawnione informacje inną przedawnioną informacją? Obawiam się że jest to niedopuszczalne.",
@@ -203,7 +203,7 @@ Translate:Add({ Polski = {
   ["Recon"] = "Rekonesans",
   ["Excellent. I will await your report."] = "Wspaniale. Oczekuję na twój raport.",
   ["Why so much money?"] = "Dlaczego tyle pieniędzy?",
-  ["When do you need the data?"] = "Do czego potrzebujesz tych danych?",
+  ["When do you need the data?"] = "Do kiedy potrzebujesz tych danych?",
   ["Will I be in any danger?"] = "Jest jakieś zagrożenie?",
   ["Could you repeat the original request?"] = "Możesz powtórzyć swoją ofertę?",
   ["Ok, agreed."] = "Zgoda.",
@@ -214,6 +214,6 @@ Translate:Add({ Polski = {
  PIRATE_TAUNTS = {
 	"Co my tu mamy, to dzień zapłaty!",
 	"Cały twój statek należy do nas!",
-	"Nie wrócisz z danymi tego sensora!",
+	"Nie wrócisz z danymi z tego sensora!",
   },
 }, })
