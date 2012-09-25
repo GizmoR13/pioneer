@@ -150,11 +150,11 @@ Translate:AddFlavour('Polski','Scout', {
 })
 
 Translate:AddFlavour('Polski','Scout', {
-		adtext = "RECON. in the {system} system. {cash} to an experienced pilot.",
-		introtext = "Hello. I'm {name}, information is my business. I'm willing to pay {cash} for a sensor sweep of {systembody} in the {system} ({sectorx}, {sectory}, {sectorz}) system.",
-		whysomuchtext = "I know there's something going on there, but I don't know what. In my profession, that's not good.",
-		successmsg = "Your timely and discrete service is much appreciated. You have been paid in full.",
-		failuremsg = "Useless! I will never depend on you again! Needless to say, you will not be paid for this.",
+		adtext = "REKONESANS. W systemie {system} . {cash} dla doświadczonego pilota.",
+		introtext = "Witam. Jestem {name}, dla mnie informacja to pieniądz. Mogę zapłacić {cash} za rozmieszczenie sensorów nad {systembody} w systemie {system} ({sectorx}, {sectory}, {sectorz}).",
+		whysomuchtext = "Wiem że coś tam się dzieje, ale nie wiem dokładnie co. W mojej profesji, to niedopuszczalne.",
+		successmsg = "Twoja punktualna i dyskretna usługa zostanie doceniona. Wypłacam całą należność.",
+		failuremsg = "Nieprzydatne! Więcej liczyć na ciebie nie będę! Nie ma co więcej mówić, nie zapłacę ci za to.",
 		urgency = 0.4,
 		risk = 0.75,
 		localscout = 0,
