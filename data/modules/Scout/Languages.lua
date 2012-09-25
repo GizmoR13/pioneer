@@ -161,33 +161,33 @@ Translate:AddFlavour('Polski','Scout', {
 })
 
 Translate:AddFlavour('Polski','Scout', {
-		adtext = "Help us keep the {system} system orderly!",
-		introtext = "Greetings. This is Lieutenant {name} from AdAstra security services. We pay {cash} for data about {systembody} in the {system} ({sectorx}, {sectory}, {sectorz}) system.",
-		whysomuchtext = "We need to check out some rumors. Usually they are unsubstantial, but sometimes they turn out to be true.",
-		successmsg = "Well done, your money is being transfered.",
-		failuremsg = "Your ship registration has been noted, we will reject all further applications for work from you.",
+		adtext = "Pomóż nam utrzymać porządek w systemie {system}!",
+		introtext = "Pozdrawiam. Tu porucznik {name} ze służby ochrony AdAstra. Zapłacimy {cash} za dane o {systembody} w systemie {system} ({sectorx}, {sectory}, {sectorz}).",
+		whysomuchtext = "Musimy sprawdzić pewne pogłoski. Zwykle okazują się nieistotne, ale czasem mogą być też prawdziwe.",
+		successmsg = "Świetnie, twoje wynagrodzenie będzie przelane.",
+		failuremsg = "Twój numer rejestracyjny zostaje zapisany, będziemy odrzucać twoje dalsze podania o pracę.",
 		urgency = 0.1,
 		risk = 0.1,
 		localscout = 0,
 })
 
 Translate:AddFlavour('Polski','Scout', {
-		adtext = "{system} administration offices need your help to keep their files up to date!",
-		introtext = "Pleased to meet you, I am secretary {name}, {system} administration, and I'm willing to pay {cash} for current data about {systembody}. No rush, we simply need to keep our files up to date.",
-		whysomuchtext = "This is a government job. It's not OUR money.",
-		successmsg = "Thank you for helping us keeping our information current. Your pay is transfered as we speak.",
-		failuremsg = "Am I supposed to update our outdated information with other outdated information? This is unacceptable I'm afraid.",
+		adtext = "Biura administracji w {system} potrzebują twojej pomocy przy aktualizacji dokumentacji!",
+		introtext = "Miło cię widzieć, jestem sekretarz {name}, administracji {system} i chcę zapłacić {cash} za aktualne dane o {systembody}. Bez pośpiechu, po prostu musimy posiadać aktualną dokumentację.",
+		whysomuchtext = "To jest praca rządowa. To nie są NASZE pieniądze.",
+		successmsg = "Dziękuję ci za pomoc w uzyskaniu aktualnych informacji. Twoja należność została przelana zgodnie z obietnicą.",
+		failuremsg = "Mam uaktualniać nasze przedawnione informacje inną przedawnioną informacją? Obawiam się że jest to niedopuszczalne.",
 		urgency = 0.1,
 		risk = 0,
 		localscout = 1,
 })
 
 Translate:AddFlavour('Polski','Scout', {
-		adtext = "{system} police needs your help to keep order!",
-		introtext = "I am captain {name}, {system} police. We urgently need information about {systembody}. I'll pay you {cash} credits if I get the information in a reasonable time.",
-		whysomuchtext = "We can't allow such dangers to our citizens in our neighbourhood. We need to know what's going on there, and we need to know it soon!",
-		successmsg = "Your prompt report is appreciated. Your money has been transfered.",
-		failuremsg = "I needed that information some time ago! I refuse to pay you.",
+		adtext = "Policja w {system} potrzebuje twojej pomocy w utrzymaniu porządku!",
+		introtext = "Jestem kapitan {name}, policja {system} . Potrzebujemy pilnie informacji o {systembody}. Zapłacę ci {cash} jeśli uzyskam informacje w rozsądnym czasie.",
+		whysomuchtext = "Nie pozwalamy by w sąsiedztwie powstawało zagrożenie dla naszych obywateli . Chcemy wiedzieć co tam się dzieje i musimy wiedzieć to wkrótce!",
+		successmsg = "Twoje szybkie sprawozdanie jest cenne. Twoje pieniądze zostaną przelane.",
+		failuremsg = "Ta informacja była potrzebna dawno temu! Odmawiam zapłaty.",
 		urgency = 0.6,
 		risk = 0.4,
 		localscout = 1,
