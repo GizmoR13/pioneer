@@ -118,10 +118,10 @@ Translate:Add({ English = {
 
 Translate:AddFlavour('Polski','Scout', {
 		adtext = "Poszukuję Pilota dla rekonesansu w systemie {system}",
-		introtext = "Witam, nazywam się {name}. Odbieramy jakieś sygnały niedaleko {systembody} w systemie {system} ({sectorx}, {sectory}, {sectorz}). Upoważniono mnie by zapłacić ci {cash} za rozmieszczenie sensorów w tym obszarze.",
+		introtext = "Witam, nazywam się {name}. Odbieramy jakieś sygnały niedaleko {systembody} w systemie {system} ({sectorx}, {sectory}, {sectorz}). Upoważniono mnie do wypłacenia {cash} za rozmieszczenie sensorów w tym obszarze.",
 		whysomuchtext = "To standardowa zapłata za taką usługę.",
 		successmsg = "Dziękuję ci za transmisję informacji. Uzgodniona kwota będzie przelana na twoje konto",
-		failuremsg = "Z tego powodu że złamałeś kontrakt, musiano wysłać kolejny statek. Odnotujemy twoją niekompetencję!",
+		failuremsg = "Z twojej winy zrywamy kontrakt, musieliśmy wysłać kolejny statek. Odnotujemy twoją niekompetencję!",
 		urgency = 0,
 		risk = 0,
 		localscout = 0,
@@ -130,8 +130,8 @@ Translate:AddFlavour('Polski','Scout', {
 Translate:AddFlavour('Polski','Scout', {
 		adtext = "Potrzebny zwiadowca do systemu {system}.",
 		introtext = "Witam. Jestem {name}. Zapłacę ci {cash} za rozmieszczenie sensorów niedaleko {systembody} w systemie {system} ({sectorx}, {sectory}, {sectorz}).",
-		whysomuchtext = "Jeśli chcesz to mogę zaoferować mniej...?",
-		successmsg = "Odebrano twoje dane, Powinieneś za chwilę otrzymać pieniądze.",
+		whysomuchtext = "Jeśli chcesz to mogę zaoferować ci mniej...?",
+		successmsg = "Odebraliśmy twoje dane, za chwilę otrzymasz pieniądze.",
 		failuremsg = "Równie dobrze można było wysłać tam ślimaka. Nie zapłacę za przestarzałe informacje!",
 		urgency = 0.1,
 		risk = 0,
@@ -139,11 +139,11 @@ Translate:AddFlavour('Polski','Scout', {
 })
 
 Translate:AddFlavour('Polski','Scout', {
-		adtext = "URGENT. Data about the {system} system needed!",
-		introtext = "My name is {name}, I'm a journalist currently writing a story about the {system} ({sectorx}, {sectory}, {sectorz}) system. There's some hints I need to verify in the vicinity of {systembody}. I'm willing to pay {cash} to anyone who can get me data about the area before my deadline runs up.",
-		whysomuchtext = "I'm a renowned journalist, not one of those wannabes writing for handout newspapers. I know that accurate information comes at a price.",
-		successmsg = "Thanks a lot, that's just the source material I needed for my article. Your money is on the way!",
-		failuremsg = "I could not finish the article on time because I did not have the data to back up some points. No money for me, no money for you either.",
+		adtext = "PILNE. Potrzebne dane o systemie {system}!",
+		introtext = "Nazywam się {name}, jestem dziennikarzem i właśnie piszę materiał o systemie {system} ({sectorx}, {sectory}, {sectorz}). Potrzebuję zweryfikować niektóre wątki dotyczące okolic {systembody}. Mogę zapłacić {cash} każdemu, kto dostarczy mi te dane jeszcze przed ostatecznym terminem druku.",
+		whysomuchtext = "Jestem znanym dziennikarzem, ale nie z tych pragnących pisać dla brukowców. Bo wiem że prawdziwe informacje są w cenie.",
+		successmsg = "Wielkie dzięki, właśnie takiego materiału źródłowego szukam do mojego artykułu. Twoje pieniądze są już w drodze!",
+		failuremsg = "Artykuł nie został ukończony na czas ponieważ brakło podparcia dla niektórych z kwestii. Brak pieniędzy dla mnie, brak też pieniędzy dla ciebie.",
 		urgency = 0.6,
 		risk = 0,
 		localscout = 0,
