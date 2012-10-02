@@ -3,12 +3,12 @@
 
 local s = CustomSystem:new('Barnard\'s star',{ 'STAR_M' })
     :govtype('EARTHCOLONIAL')
-    :short_desc('Earth Federation prison colony')
-    :long_desc([[Barnard's Star is a very low-mass red dwarf star.  Somewhere between 7 and 12 billion years old, it is probably one of the most ancient stars in the galaxy.  Despite that, it is still fairly active.  Pilots entering the system are warned that there might be consideral stellar activity, including flares and massive coronal ejections.
+    :short_desc('Kolonia karna Federacji Ziemskiej')
+    :long_desc([[Barnard's Star to czerwony karzeł o bardzo małej masie.  Wiek gwiazdy oceniany jest na 7 do 12 miliardów lat, co najprawdopodobniej czyni ją jedną z najstarszych w galaktyce.  Pomimo to, wciąż jest dość aktywna.  Piloci wchodzący do układu ostrzegani są przed znaczną aktywnością gwiazdy, włączając w to flary i koronalne wyrzuty masy.
 
-One of the first stars to be visited after the introduction of interstellar travel, Barnard's Star was found to be solitary, with no planets.  Despite this, habitats were built here to serve as Federal prison colonies.
+To od wprowadzenia podróży międzygwiezdnych jedna z pierwszych odwiedzonych gwiazd, a Barnard's Star okazała się gwiazdą samotną, nieposiadającą planet.  Jednak ostatecznie zbudowano habitaty, by służyły jako Federalne kolonie karne.
 
-A permit is normally required in order to enter this system whilst carrying weapons.]])
+Zwykle uzyskanie pozwolenia na wejście do tego systemu wymaga posiadania uzbrojenia.]])
 
 local barnard = CustomSystemBody:new('Barnard\'s Star', 'STAR_M')
     :radius(f(17,100))

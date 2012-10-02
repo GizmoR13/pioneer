@@ -2,7 +2,7 @@
 -- Licensed under the terms of CC-BY-SA 3.0. See licenses/CC-BY-SA-3.0.txt
 
 define_ship {
-	name = 'Imperial Trader',
+	name = 'Kupiec Imperium',
 	model = 'trader',
 	forward_thrust = 8e7,
 	reverse_thrust = 3e7,

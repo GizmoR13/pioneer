@@ -2,7 +2,7 @@
 -- Licensed under the terms of CC-BY-SA 3.0. See licenses/CC-BY-SA-3.0.txt
 
 define_ship {
-	name='Ladybird Starfighter',
+	name='BIEDRONKA Myśliwiec',
 	model='ladybird',
 	forward_thrust = 10e6,
 	reverse_thrust = 4e6,

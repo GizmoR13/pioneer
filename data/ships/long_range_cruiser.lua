@@ -3,7 +3,7 @@
 
 --Ships not available for purchase (ambient ships)
 define_static_ship {
-	name='Long Range Cruiser',
+	name='Krążownik Dużego Zasiegu',
 	model='lrc',
 	forward_thrust = 2e8,
 	reverse_thrust = 5e7,

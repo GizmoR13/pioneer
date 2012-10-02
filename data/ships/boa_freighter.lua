@@ -2,7 +2,7 @@
 -- Licensed under the terms of CC-BY-SA 3.0. See licenses/CC-BY-SA-3.0.txt
 
 define_ship {
-	name='Boa Freighter',
+	name='BOA Frachtowiec',
 	model='boa',
 	forward_thrust = 12e7,
 	reverse_thrust = 4e7,

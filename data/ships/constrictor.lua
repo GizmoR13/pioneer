@@ -2,7 +2,7 @@
 -- Licensed under the terms of CC-BY-SA 3.0. See licenses/CC-BY-SA-3.0.txt
 
 define_ship {
-	name = 'Constrictor',
+	name = 'DUSICIEL',
 	model='conny',
 	forward_thrust = 259e5,
 	reverse_thrust = 118e5,

@@ -2,7 +2,7 @@
 -- Licensed under the terms of CC-BY-SA 3.0. See licenses/CC-BY-SA-3.0.txt
 
 define_ship {
-	name='Interplanetary Shuttle',
+	name='WAHADŁOWIEC Międzyplanetarny',
 	model='ip_shuttle',
 	forward_thrust = 15e5,
 	reverse_thrust = 8e5,

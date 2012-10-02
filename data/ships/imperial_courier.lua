@@ -2,7 +2,7 @@
 -- Licensed under the terms of CC-BY-SA 3.0. See licenses/CC-BY-SA-3.0.txt
 
 define_ship {
-	name = 'Imperial Courier',
+	name = 'KURIER Imperium',
 	model = 'courier',
 	forward_thrust = 50e6,
 	reverse_thrust = 15e6,

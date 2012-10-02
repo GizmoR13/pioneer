@@ -3,12 +3,12 @@
 
 local s = CustomSystem:new("Werribee",{'STAR_G'})
 	:govtype('EARTHMILDICT')
-	:short_desc('Protected Nature Reserve')
-	:long_desc([[Founded as a reserve for species indiginous to Australia on Earth,
-Werribee enjoys protection from the Earth military against poachers.
+	:short_desc('Chroniony rezerwat przyrody')
+	:long_desc([[Założono tu rezerwat dla rdzennie ziemskich gatunków z Australii,
+Werribee podlega ziemskiej ochronie militarnej przeciwko kłusownikom.
 
-Since 3140, this system has been the only place where some of the most
-beautiful and dangerous life forms from Earth live outside of captivity.]])
+Od 3140, ten system jest jedynym miejscem gdzie występuje na
+wolności tak wiele pięknych i niebezpiecznych ziemskich form życia.]])
 
 local werribee = CustomSystemBody:new("Werribee",'STAR_G')
    :radius(f(11,10))

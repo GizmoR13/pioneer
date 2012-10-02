@@ -2,7 +2,7 @@
 -- Licensed under the terms of CC-BY-SA 3.0. See licenses/CC-BY-SA-3.0.txt
 
 define_ship {
-	name='Talon Military Interceptor',
+	name='SZPON Myśliwiec Przechwytujący',
 	model='fi',
 	forward_thrust = 20e5,
 	reverse_thrust = 5e5,

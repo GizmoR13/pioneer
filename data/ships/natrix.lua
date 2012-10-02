@@ -2,7 +2,7 @@
 -- Licensed under the terms of CC-BY-SA 3.0. See licenses/CC-BY-SA-3.0.txt
 
 define_ship {
-	name='Natrix',
+	name='ZASKRONIEC',
 	model='natrix',
 	forward_thrust = 6e6,
 	reverse_thrust = 1e6,

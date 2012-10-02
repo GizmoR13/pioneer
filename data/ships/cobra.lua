@@ -2,7 +2,7 @@
 -- Licensed under the terms of CC-BY-SA 3.0. See licenses/CC-BY-SA-3.0.txt
 
 define_ship {
-	name='Cobra Mk I',
+	name='KOBRA Mk I',
 	model='cobra1',
 	forward_thrust = 12e6,
 	reverse_thrust = 5e6,

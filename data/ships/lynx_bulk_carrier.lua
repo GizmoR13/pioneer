@@ -3,7 +3,7 @@
 
 --Ships not available for purchase (ambient ships)
 define_static_ship {
-	name='Lynx Bulk Carrier',
+	name='RYŚ Masowiec',
 	model='lynx',
 	forward_thrust = 3e7,
 	reverse_thrust = 2e7,

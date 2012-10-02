@@ -4,8 +4,8 @@
 -- create a custom system
 local sys = CustomSystem:new('Achernar',{'STAR_B'})
 	:govtype('EMPIRERULE')
-	:short_desc('Imperial seat of the Empire')
-	:long_desc([[...mostly, they raise chickens, giant low-gravity chickens]])
+	:short_desc('Siedziba monarchii Imperium')
+	:long_desc([[...głównie, hodują kurczaki, gigantyczne kurczaki w niskiej grawitacji]])
 
 -- Achernar - Type 'B' hot blue star
 -- Mass: 7186786.11 Earth masses (== 21.60733079 solar masses)

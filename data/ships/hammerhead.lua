@@ -2,7 +2,7 @@
 -- Licensed under the terms of CC-BY-SA 3.0. See licenses/CC-BY-SA-3.0.txt
 
 define_ship {
-	name='Hammerhead Heavy Freighter',
+	name='MŁOT Ciężka Fregata',
 	model='hh',
 	forward_thrust = 14e7,
 	reverse_thrust = 5e7,

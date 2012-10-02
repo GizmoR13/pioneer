@@ -2,7 +2,7 @@
 -- Licensed under the terms of CC-BY-SA 3.0. See licenses/CC-BY-SA-3.0.txt
 
 define_ship {
-	name='Eagle MK-II',
+	name='ORZEŁ MK-II',
 	model = 'eagle_mk2',
 	forward_thrust = 34e5,
 	reverse_thrust = 17e5,

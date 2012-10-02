@@ -2,7 +2,7 @@
 -- Licensed under the terms of CC-BY-SA 3.0. See licenses/CC-BY-SA-3.0.txt
 
 define_ship {
-	name='Eagle Long Range Fighter',
+	name='ORZEŁ Myśliwiec Dużego Zasięgu',
 	model = 'eagle_lrf',
 	forward_thrust = 34e5,
 	reverse_thrust = 17e5,

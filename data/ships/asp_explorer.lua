@@ -2,7 +2,7 @@
 -- Licensed under the terms of CC-BY-SA 3.0. See licenses/CC-BY-SA-3.0.txt
 
 define_ship {
-	name='Asp Explorer',
+	name='ŻMIJA Odkrywca',
 	model='asp_sparks',
 	forward_thrust = 220e5,
 	reverse_thrust = 100e5,

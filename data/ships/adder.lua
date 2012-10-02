@@ -2,7 +2,7 @@
 -- Licensed under the terms of CC-BY-SA 3.0. See licenses/CC-BY-SA-3.0.txt
 
 define_ship {
-	name='Adder',
+	name='ŻMIJA',
 	model='adder',
 	forward_thrust = 100e5,
 	reverse_thrust = 51e5,

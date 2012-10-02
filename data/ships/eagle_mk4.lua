@@ -2,7 +2,7 @@
 -- Licensed under the terms of CC-BY-SA 3.0. See licenses/CC-BY-SA-3.0.txt
 
 define_ship {
-	name='Eagle MK-IV "Bomber"',
+	name='ORZEŁ MK-IV "Bombowiec"',
 	model='eagle_mk4',
 	forward_thrust = 50e5,
 	reverse_thrust = 25e5,
