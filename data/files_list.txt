@@ -1,6 +1,10 @@
 
 Aktualna lista plików tworzących moda:
 
+factions\00_default.lua
+factions\01_federation.lua
+factions\02_CIS.lua
+factions\03_red.lua
 models\ships\default_ship_textures\station_splash.png
 models\ships\eye\eye6.png
 models\ships\viper\viper_pol1.png
