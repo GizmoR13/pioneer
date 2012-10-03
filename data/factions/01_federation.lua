@@ -5,7 +5,7 @@ local f = Faction:new('Federacja')
 	:homeworld(0,0,0,0,4)
 	:foundingDate(3050.0)
 	:expansionRate(1.0)
-	:military_name('Flota Kosmiczna Zjednoczonych Narodów')
+	:military_name('Flota Zjednoczonych Narodów')
 	:police_name('Policja')
 	:colour(0.4,0.4,1.0)
 
