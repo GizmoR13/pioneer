@@ -289,6 +289,8 @@ local econTrade = function ()
 	if Game.player:GetEquipCount('CARGO', 'WATER') > 0 then
 		refuelButton = ui:Button():SetInnerWidget(ui:Label(t('REFUEL')))
 		refuelButton.onClick:Connect(refuel)
+		else
+		refuelButton = nil
 	end
 
 	return ui:Expand():SetInnerWidget(
